@@ -20,7 +20,6 @@ from django.contrib import admin
 urlpatterns = [
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
-    # path('yournickname/', views.get_nickname, name='nickname'),
     path('yourpassword/', views.get_password, name='pass'),
     path('aboutauthor/', views.author, name='author')
 ]

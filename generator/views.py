@@ -14,12 +14,6 @@ def author(request):
     return render(request, 'generator/aboutauthor.html')
 
 
-# def get_nickname(request):
-#
-#     nick = Nickname.objects.all()
-#
-#     return render(request, 'generator/password.html', {'nickname': nick[0]})
-
 def get_password(request):
 
     sym = list('abcdefghijklmnopqrstuvwxyz')
